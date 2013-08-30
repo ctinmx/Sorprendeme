@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <meta lang="es">
+
+  <meta name="description" content="Providing top-level navigation and inputs for the active view">
+
+  <title>SORPRENDEME</title>
+  
+  <link rel="stylesheet" href="headers.css">
+  <link rel="stylesheet" href="switches.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+
+  <style>
+  p { font-size:150%; cursor:pointer; }
+  </style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script src="js/index.js"></script>
+
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-size: 10px;
+      background-color: #80cbd8;
+      font-weight: bolder;
+      color: #17a1bf;
+
+    }
+    body {
+      background: none;
+      text-align: left;
+      font-family: 'Denk One', sans-serif;
+      font-size:200%
+    }
+    section[role="region"] {
+      margin-bottom: 1.5rem;
+      position: relative;
+      text-align: center;
+    }
+
+    #mapa {
+      position: absolute;
+      padding-bottom: 40%;
+      margin-left: 10%;
+      width: 80%;
+      height: 50%;
+    }
+  </style>
+
+</head>
+<body role="application">
+
+  <section role="region" id="head">
+    <header>
+      <h1>¿Cu&aacute;nto traes?<em></em></h1>
+    </header>
+  
+    <br />
+    <center>
+
+      <section id="dinero">
+
+        <table width="80%" border="0">
+          <tr>
+            <td align="center"><img src="images/varo/cerobaro.png" id="cero"><br>No tengo varo</td>
+            <td align="center"><img src="images/varo/roto.png" id="roto"><br />de $50 a $150</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="images/varo/cool.png" id="cool"><br />de $150 a $350</td>
+            <td align="center"><img src="images/varo/milloneta.png" id="milloneta"><br />Tu pide, Yo pago!!</td>
+          </tr>
+        </table>
+
+      </section>
+
+    </center>
+  </section>
+
+</body>
+</html>

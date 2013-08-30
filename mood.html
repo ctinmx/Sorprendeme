@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Headers</title>
+  <meta name="description" content="Providing top-level navigation and inputs for the active view">
+
+  <!--
+    - This <style> and <link> is only used for the example preview,
+    - it isn't needed for the real use case.
+    -->
+  
+  <link rel="stylesheet" href="headers.css">
+  <!--<link rel="stylesheet" href="switches.css">
+  <link rel="stylesheet" href="input_areas.css">
+  <link rel="stylesheet" href="buttons.css">-->
+
+<link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+  <!--<link rel="stylesheet" href="transitions.css">-->
+  <!-- Util CSS: some extra tricks -->
+  <!--<link rel="stylesheet" href="util.css">-->
+  <!-- Additional markup to make Building Blocks kind of cross browser -->
+  <!--<link rel="stylesheet" href="cross_browser.css">-->
+
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-size: 10px;
+      background-color: #80cbd8;
+    }
+    body {
+      background: none;
+      text-align: center;
+      font-family: 'Denk One', sans-serif;
+      color: #fff;
+      font-size: 28px;
+      font-weight: bolder;
+    }
+    section[role="region"] {
+      margin-bottom: 1.5rem;
+      position: relative;
+      text-align: center;
+    }
+
+    #mapa {
+      position: absolute;
+      padding-bottom: 40%;
+      margin-left: 10%;
+      width: 80%;
+      height: 5%;
+      font-weight: bolder; 
+    }
+  </style>
+
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/mood.js"></script>
+
+</head>
+<body role="application">
+
+  <div id="mood" class="mood">
+    <section role="region">
+    <header>
+      <a href="index.html"><span class="icon icon-back">back</span></a>
+      <h1>¿Con qué ánimo vas? <em></em></h1>
+    </header>
+  </section>
+<br />
+
+  <center>
+
+    <section id="modo">
+
+    <table width="80%" border="0">
+      <tr>
+        <td align="center"><img src="images/mood/romantico.png" id="romantico"></td>
+        <td align="center"><img src="images/mood/divertido.png" id="divertido"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center"><img src="images/mood/excentrico.png" id="exentrico"></td>
+        <td align="center"><img src="images/mood/intimo.png" id="intimo"></td>
+      </tr>
+    </table>
+
+    </section>
+
+  </center>
+  </div>
+  
+
+</body>
+</html>

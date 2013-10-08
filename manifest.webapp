@@ -1,8 +1,8 @@
 {
-    "version": "1",
-    "name": "Sorprendeme",
+    "version": "0.9",
+    "name": "Sorpréndeme",
     "launch_path": "splash.html",
-    "description": "Demo de sorprendeme",
+    "description": "Demo de sorpréndeme",
     "icons": {
         "128": "/images/icons/icon128.png"
     },

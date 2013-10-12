@@ -2,7 +2,7 @@
     "version": "0.9",
     "name": "Sorpréndeme",
     "launch_path": "splash.html",
-    "description": "Demo de sorpréndeme",
+    "description": "Sugerencias para sorprender a tu pareja, de acuerdo a tu bolsillo",
     "icons": {
         "128": "/images/icons/icon128.png"
     },

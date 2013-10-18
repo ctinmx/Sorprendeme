@@ -7,14 +7,14 @@
         "128": "/images/icons/icon128.png"
     },
     "developer": {
-        "name": "Ricardo Gonzalez, Jesus Lopez, Geovanny Romero, Juan Alberto Ladrón, Eduardo Ladrón BY CTIN",
-        "url": ""
+        "name": "CTINmx",
+        "url": "http://ctinmx.com/"
     },
     "installs_allowed_from": ["*"],
     "default_locale": "es",
     "permissions": {
         "desktop-notification": {
-            "description" : "To show notifications"
+            "description" : "Mostrarte notificaciones"
         },
         "geolocation": {
             "description" : "Marcar el lugar en donde te encuentras"
